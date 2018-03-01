@@ -1,0 +1,151 @@
+       __     __) ______                 _____)     _    
+      (, /|  /   (, /    )     /)      /        ___/__)  
+        / | /      /---(  ____(/      /   ___  (, /      
+     ) /  |/    ) / ____)(_)(_(_ (_/_/     / )   /       
+    (_/   '    (_/ (            .-/ (____ /     (_____   
+                               (_/                     ) 
+========================================================
+						   
+Nick Walker
+-----------
+
+9 April 2013
+----------------
+
+V 1.5
+-----
+
+This program creates a solar system and uses Newton's Law of gravitation to 
+animate motion. It allows the user to manipulate and explore the system at will.
+
+Requires:
+---------
+
+	*	OpenGL - a graphics library
+		-	http://pyopengl.sourceforge.net/
+		
+	*	numpy - a math library
+		-	http://www.numpy.org/
+		
+	*	PIL - python imaging library
+		-   http://www.pythonware.com/products/pil/
+		
+Usage:
+------
+
+	*	Run the NBodyV_1_5.py file
+	
+	*	Collisions are still not working correctly. If you have problems, I would suggest turning them off through
+		the command line
+		
+	*	Command Line Flags:
+			
+			-	The first flag is the number of planets
+			
+			-	The second flag is the number of rings (these determine th boundaries
+				and the spawn radius for planets)
+				
+			-	'-c' means no collisions
+			
+			-	'-d' means no deletions at boundaries
+			
+			-	'-e' means more eccentric orbits
+			
+			-   '-b' means binary star system
+			
+			-   '-t' means spheres are replaced with teapots
+			
+	
+Features:
+---------
+
+	*	Gravitation between multiple Astronomical objects
+	
+	*	Adding and subtracting objects from the system
+	
+	*	Scene traversal with keyboard input
+	
+	*	Scene traversal with mouse input
+	
+	*	Collisions with debris
+	
+Future Features:
+----------------
+		
+	*	More variation in mass and density
+	
+	*	Better collisions (fix disappearing sun and conserve energy)
+	
+	*	Generation of high speed, high mass external Astronomical objects
+	
+	*	N number of stars
+	
+	*	Heliocentric lighting
+	
+	*	Bugfixes for movement
+	
+	*	Atmosphere graphical effects
+	
+	*	Shaders for the sun
+	
+Controls:
+---------
+
+	*	w: move forward
+	
+	*	s: move backward
+	
+	*	a: turn left
+	
+	*	d: turn right
+	
+	*	e: turn up
+	
+	*	q: turn down
+	
+	*	p: pause/play
+	
+	*	i: rotate camera up
+	
+	*	k: rotate camera down
+	
+	*	j: rotate camera left
+	
+	*	l: rotate camera right
+	
+	*	]: add Astronomical object
+	
+	*	[: remove Astronomical object
+	
+	*	mouse: changes camera facing
+	
+	*	left click: move forward
+	
+	*	right click: move backward
+	
+	*	middle click: stop moving forward or backward
+
+Credits:
+--------
+
+	*	Nick Walker
+	
+Copyright:
+----------
+
+Copyright (c) 2013 Nicholas Walker
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, 
+and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+	
